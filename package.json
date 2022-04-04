@@ -4,10 +4,10 @@
 	"description": "Tuam - React Next Office Space & Rental Template",
 	"main": "index.js",
 	"scripts": {
-		"dev": "next dev",
+		"dev": "node server.js",
 		"build": "next build",
 		"export": "next export",
-		"start": "next start"
+		"start": "NODE_ENV=production node server.js"
 	},
 	"author": "EnvyTheme.com",
 	"license": "ISC",
@@ -37,6 +37,7 @@
 		"sass": "^1.43.5",
 		"sweetalert2": "^11.2.1",
 		"sweetalert2-react-content": "^4.2.0",
-		"toolkit": "^1.5.4"
+		"toolkit": "^1.5.4",
+		"uuid": "^8.3.2"
 	}
 }
